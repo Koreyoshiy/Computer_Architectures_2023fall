@@ -1,0 +1,4 @@
+﻿  IP_MAC.cpp
+C:\Users\MNH\Desktop\大三\mycode\Computer_Architectures\labs\lab3\lab3_IP_MAC\lab3_IP_MAC\IP_MAC.cpp(102,24): warning C4101: “MIP”: 未引用的局部变量
+C:\Users\MNH\Desktop\大三\mycode\Computer_Architectures\labs\lab3\lab3_IP_MAC\lab3_IP_MAC\IP_MAC.cpp(96,11): warning C4101: “ip”: 未引用的局部变量
+  lab3_IP_MAC.vcxproj -> C:\Users\MNH\Desktop\大三\mycode\Computer_Architectures\labs\lab3\lab3_IP_MAC\Debug\lab3_IP_MAC.exe
