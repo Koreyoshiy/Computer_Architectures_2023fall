@@ -191,11 +191,13 @@ int main() {
             ReIP = ARPFrame.RecvIP = inet_addr(inet_ntoa(((struct sockaddr_in*)(a->addr))->sin_addr));
         }
     }
+
     //向以太网广播ARP请求
     struct pcap_pkthdr* adhandleheader;
     const u_char* adhandledata;
     int tjdg = 0;
-    //
+
+    //捕获流量
     if (pcap_sendpacket(adhandle, (u_char*)&ARPFrame, sizeof(ARPFrame_t)) != 0)
     {
         pcap_freealldevs(alldevs);
@@ -231,10 +233,10 @@ int main() {
     cout << "--------------------请输入目的IP地址--------------------" << endl;
     cin >> pip;
     ReIP = ARPFrame.RecvIP = inet_addr(pip);
-    cout << "--------------------请输入是否为本机（yes/no）--------------------" << endl;
-    int ifIP;
+    cout << "--------------------请输入是否为本机（Y/N）--------------------" << endl;
+    char ifIP;
     cin >> ifIP;
-    if (ifIP=='yes') {//如果是远程主机
+    if (ifIP=='N') {//如果是远程主机
         SerIP = ARPFrame.SendIP = IPPacket->SendIP;
         for (i = 0; i < 6; i++)
         {
