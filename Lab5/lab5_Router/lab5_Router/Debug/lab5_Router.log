@@ -1,0 +1,5 @@
+﻿  router.cpp
+D:\GitHub_Koreyoshiy_Files\Computer_Architectures_2023fall\Lab5\lab5_Router\lab5_Router\router.cpp(36,7): warning C4101: “mac”: 未引用的局部变量
+D:\GitHub_Koreyoshiy_Files\Computer_Architectures_2023fall\Lab5\lab5_Router\lab5_Router\router.cpp(132,32): warning C4474: printf: 格式字符串中传递的参数太多
+D:\GitHub_Koreyoshiy_Files\Computer_Architectures_2023fall\Lab5\lab5_Router\lab5_Router\router.cpp(132,32): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  lab5_Router.vcxproj -> D:\GitHub_Koreyoshiy_Files\Computer_Architectures_2023fall\Lab5\lab5_Router\Debug\lab5_Router.exe

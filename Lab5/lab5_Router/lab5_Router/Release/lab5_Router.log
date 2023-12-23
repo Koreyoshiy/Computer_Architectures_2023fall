@@ -1,0 +1,8 @@
+﻿  router3.cpp
+D:\GitHub_Koreyoshiy_Files\Computer_Architectures_2023fall\Lab5\lab5_Router\lab5_Router\router3.h(3,1): warning C4005: “WIN32”: 宏重定义
+D:\GitHub_Koreyoshiy_Files\Computer_Architectures_2023fall\Lab5\lab5_Router\lab5_Router\router3.cpp : message : 参见“WIN32”的前一个定义
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 45 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  lab5_Router.vcxproj -> D:\GitHub_Koreyoshiy_Files\Computer_Architectures_2023fall\Lab5\lab5_Router\Release\lab5_Router.exe
